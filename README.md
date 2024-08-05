@@ -8,9 +8,13 @@ The recommendation system is built using Python and popular libraries such as Pa
 
 ### Features
 Collaborative Filtering: Uses simulated user interactions to provide recommendations based on similar users' preferences.
+
 Content-Based Filtering: Recommends dramas similar to a user's favorite titles based on genre and content similarity.
+
 Hybrid Approach: Combines collaborative and content-based filtering for robust recommendations.
+
 Web Scraping: Automatically collects Kdrama data from MyDramaList, including titles, genres, and ratings.
+
 Dynamic User Data Simulation: Generates dummy user ratings to enable collaborative filtering.
 
 ### Installation
