@@ -7,15 +7,15 @@ The part 1 of this project is a Kdrama Recommendation System that leverages coll
 The recommendation system is built using Python and popular libraries such as Pandas, BeautifulSoup, Surprise, and Scikit-learn. It uses web scraping to collect data from MyDramaList, simulates user interactions for collaborative filtering, and calculates genre-based similarities for content-based recommendations.
 
 ### Features
-Collaborative Filtering: Uses simulated user interactions to provide recommendations based on similar users' preferences.
+**Collaborative Filtering:** Uses simulated user interactions to provide recommendations based on similar users' preferences.
 
-Content-Based Filtering: Recommends dramas similar to a user's favorite titles based on genre and content similarity.
+**Content-Based Filtering:** Recommends dramas similar to a user's favorite titles based on genre and content similarity.
 
-Hybrid Approach: Combines collaborative and content-based filtering for robust recommendations.
+**Hybrid Approach:** Combines collaborative and content-based filtering for robust recommendations.
 
-Web Scraping: Automatically collects Kdrama data from MyDramaList, including titles, genres, and ratings.
+**Web Scraping:** Automatically collects Kdrama data from MyDramaList, including titles, genres, and ratings.
 
-Dynamic User Data Simulation: Generates dummy user ratings to enable collaborative filtering.
+**Dynamic User Data Simulation:** Generates dummy user ratings to enable collaborative filtering.
 
 ### Installation
 **Download the Kdrama_recommendation_project.ipynb file**
@@ -28,29 +28,29 @@ If running in Google Colab, install the following packages:
 !pip install beautifulsoup4 requests pandas scikit-surprise
 
 ### Future Enhancements:
-Web Application:
+**Web Application:**
 
 Considering deploying a web application using Flask or Django.
 
 Allow users to input watched dramas and receive recommendations in real-time.
 
-Cloud Hosting:
+**Cloud Hosting:**
 
 Deploying the application on cloud platforms like Heroku, AWS, or Google Cloud.
 
-Integration with Real User Data:
+**Integration with Real User Data:**
 
 Incorporating real user interactions to enhance recommendation accuracy.
 
-Advanced Algorithms:
+**Advanced Algorithms:**
 
 Exploring other deep learning models for improved predictions.
 
-User Interface Improvements:
+**User Interface Improvements:**
 
 Developing a more interactive and user-friendly web or mobile interface.
 
-Localization and Multilingual Support:
+**Localization and Multilingual Support:**
 
 Implementing support for multiple languages to reach a broader audience.
 
