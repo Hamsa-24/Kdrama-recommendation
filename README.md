@@ -18,13 +18,7 @@ Web Scraping: Automatically collects Kdrama data from MyDramaList, including tit
 Dynamic User Data Simulation: Generates dummy user ratings to enable collaborative filtering.
 
 ### Installation
-**Clone the Repository**
-git clone https://github.com/Hamsa-24/Kdrama-recommendation/
-cd kdrama-recommendation-system
-
-**Set Up a Virtual Environment** 
-python -m venv venv
-source venv/bin/activate  #On Windows: venv\Scripts\activate
+**Download the Kdrama_recommendation_project.ipynb file**
 
 **Install Required Packages**
 pip install -r requirements.txt
@@ -84,7 +78,7 @@ recommendations.html: The page displaying the recommended Kdramas to the user.
 ### How It Works
 Input: Users enter five Kdramas they have previously watched and enjoyed.
 
-Processing: The system analyzes the input and searches the dataset for similar dramas based on genres, ratings, and other features.
+Processing: The system analyzes the input and searches the dataset for similar dramas based on genres (ratings, and other features has to be added later)
 
 Output: The app displays a list of recommended Kdramas that align with the user's tastes.
 
@@ -101,6 +95,10 @@ cd kdrama-recommendation-system
 
 pip install -r requirements.txt
 
+**Improve the dataset:**
+
+You can improve the dataset by adding more rows and columbs in drama_data.csv
+
 **Run the Application:**
 
 python app.py
@@ -111,6 +109,3 @@ Open your browser and go to http://localhost:5000.
 
 ### Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
-
-### License
-This project is licensed under the MIT License. See the LICENSE file for details.
