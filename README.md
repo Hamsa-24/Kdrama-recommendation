@@ -85,7 +85,7 @@ Output: The app displays a list of recommended Kdramas that align with the user'
 ### Getting Started
 **Clone the Repository:**
 
-git clone https://github.com/yourusername/kdrama-recommendation-system.git
+git clone [https://github.com/yourusername/kdrama-recommendation-system.git](https://github.com/Hamsa-24/Kdrama-recommendation)
 
 **Navigate to the Directory:**
 
